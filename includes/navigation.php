@@ -2,11 +2,11 @@
   <h3>Links</h3>
   <nav id="links">
     <ul>
-      <li><a href="index.html">About Us</a></li>
-      <li><a href="team.html">Team Members</a></li>
-      <li><a href="pastperformances.html">Past Performances</a></li>
-      <li><a href="upcomingperformances.html">Upcoming Performances</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="index.php">About Us</a></li>
+      <li><a href="team.php">Team Members</a></li>
+      <li><a href="pastperformances.php">Past Performances</a></li>
+      <li><a href="upcomingperformances.php">Upcoming Performances</a></li>
+      <li><a href="contact.php">Contact Us</a></li>
     </ul>
   </nav>
 </div>
