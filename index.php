@@ -11,5 +11,6 @@
   <?php
     include "includes/navigation.php";
   ?>
+  <h2>Introduction</h2>
 </body>
 </html>
