@@ -11,6 +11,9 @@
   <?php
     include "includes/navigation.php";
   ?>
+  <div id="homeImage">
+    <img src="images/logo.jpg" alt="Ithaca Apple Harvest Festival logo"/>
+  </div>
   <h2>About Us</h2>
 </body>
 </html>
