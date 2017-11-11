@@ -7,24 +7,10 @@
   <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="screen"/>
 </head>
 <body>
-
-  <header>
-  <div id="header">
-
-    <div id="logo">
-      <img alt = "logo" src = "images/logo.png"/>
-    </div>
-
-    <div id="teamName">
-      <h1>E. Motion</h1>
-    </div>
-  </div>
-
+  <h1>E. Motion</h1>
   <?php
     include "includes/navigation.php";
   ?>
-  </header>
-
-  <h2>Introduction</h2>
+  <h2>About Us</h2>
 </body>
 </html>
