@@ -27,21 +27,32 @@
   </header>
   <article>
     <h2>Contact Us!!!</h2>
-    <p>Feel free to ask us anything about our team.</p>
     <form>
-      <label for="name">Name:</label>
-      <input type="text" name="name" placeholder="Your Name" id="name" required/>
-      <label for="email">Email:</label>
-      <input type="email" name="email" placeholder="Your Email" id="email" required/>
-      <label for="phoneNum">Phone Number:</label>
-      <input type="text" name="phoneNum" placeholder="Your Phone #" id="phoneNum" required/>
-      <label for="subject">Subject:</label>
-      <input type="text" name="subject" placeholder="The Subject" id="subject" required/>
-      <label for="textBox">Message:</label>
-      <textarea rows="5" cols="40" name="textBox" id="textBox" placeholder="Your Message"></textarea>
+      <h3 id="form_header">Contact Form</h3>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Your Name" id="name" required/>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Your Email" id="email" required/>
+      </div>
+      <div>
+        <label for="phoneNum">Phone Number:</label>
+        <input type="text" name="phoneNum" placeholder="Your Phone #" id="phoneNum" required/>
+      </div>
+      <div>
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" placeholder="The Subject" id="subject" required/>
+      </div>
+      <div>
+        <label for="textBox">Message:</label>
+        <textarea rows="8" cols="40" name="textBox" id="textBox" placeholder="Your Message"></textarea>
+      </div>
       <button type="submit" name="submit" id="submit">Submit</button>
     </form>
-    <div>
+    <div id="contacts">
+      <h3 id="con_info_header">Contact Information</h3>
       <h5>Address</h5>
       <p>Something, Something, Something...</p>
       <h5>Phone Number</h5>
@@ -50,6 +61,9 @@
       <p>Something, Something, Something...</p>
       <h5>Social Media Links</h5>
       <p>Something, Something, Something...</p>
+      <figure id="contact_photo">
+        <p>Photo Here</p>
+      </figure>
     </div>
   </article>
 </body>

@@ -95,3 +95,55 @@ figcaption span{
   color: #383838;
   font-style: italic;
 }
+
+/*CSS for contact page*/
+form {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+div {
+  width: 100%;
+}
+
+#contacts {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+#form_header {
+  text-align: center;
+  color: #383838;
+}
+
+#con_info_header {
+  color: #383838;
+}
+
+#name, #email {
+  width: 150px;
+}
+
+#phoneNum {
+  width: 91px;
+}
+
+#subject {
+  width: 140px;
+}
+
+#submit {
+  margin-left: 315px;
+  color: #383838;
+  border: none;
+  background-color: gray;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#submit:hover {
+  color: white;
+}
