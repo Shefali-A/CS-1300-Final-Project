@@ -28,7 +28,7 @@
   <h2> Executive Board </h2>
   <div class="memberRow">
     <figure class="teamMember">
-      <img src="images/Tiffany_Chan.jpg" alt="Portrait photo" />
+      <img src="images/Tiffany_Chan.png" alt="Portrait photo" />
       <figcaption class="team_caption_name">
         Tiffany Chan <span>Animal Science</span>
         <span>Class of 2019</span> <span>President</span>
@@ -36,7 +36,7 @@
     </figure>
 
     <figure class="teamMember">
-      <img src="images/Annie_Xu.jpg" alt="Portrait photo" />
+      <img src="images/Annie_Xu.png" alt="Portrait photo" />
       <figcaption class="team_caption_name">
         Annie Xu <span>Human Development</span>
         <span>Class of 2021</span> <span>Freshman Representative</span>
@@ -44,7 +44,7 @@
     </figure>
 
     <figure class="teamMember">
-      <img src="images/Betty_Wang.jpg" alt="Portrait photo" />
+      <img src="images/Betty_Wang.png" alt="Portrait photo" />
       <figcaption class="team_caption_name">
         Betty Wang <span>Undeclared</span>
         <span>Class of 2020</span> <span>Social Chair</span>
@@ -54,7 +54,7 @@
 
   <div class="memberRow">
     <figure class="teamMember">
-      <img src="images/Christina_Lu.jpg" alt="Portrait photo" />
+      <img src="images/Christina_Lu.png" alt="Portrait photo" />
       <figcaption class="team_caption_name">
         Christina Lu <span>Economics and Mathematics</span>
         <span>Class of 2018</span> <span>PR Chair</span>
@@ -62,7 +62,7 @@
     </figure>
 
     <figure class="teamMember">
-      <img src="images/Han_Chao_li.jpg" alt="Han Chao Li Portrait photo" />
+      <img src="images/Han_Chao_Li.png" alt="Han Chao Li Portrait photo" />
       <figcaption class="team_caption_name">
         Han Chao Li <span>Undeclared</span>
         <span>Class of 2020</span> <span>Media Chair</span>
@@ -70,7 +70,7 @@
     </figure>
 
     <figure class="teamMember">
-      <img src="images/Jaewon_Baek.jpg" alt="Jaewon Baek Portrait photo" />
+      <img src="images/Jaewon_Baek.png" alt="Jaewon Baek Portrait photo" />
       <figcaption class="team_caption_name">
         Jaewon Baek <span>Philosophy</span>
         <span>Class of 2020</span> <span>Secretary</span>
@@ -80,7 +80,7 @@
 
   <div class="memberRow">
     <figure class="teamMember">
-      <img src="images/Jennifer_Lin.jpg" alt="Jennifer Lin Portrait photo" />
+      <img src="images/Jennifer_Lin.png" alt="Jennifer Lin Portrait photo" />
       <figcaption class="team_caption_name">
         Jennifer Lin <span>Information Science</span>
         <span>Class of 2020</span> <span>Media Chair</span>
@@ -88,7 +88,7 @@
     </figure>
 
     <figure class="teamMember">
-      <img src="images/Michelle_Wang.jpg" alt="Michelle Wang Portrait photo" />
+      <img src="images/Michelle_Wang.png" alt="Michelle Wang Portrait photo" />
       <figcaption class="team_caption_name">
         Michelle Wang <span>Chemical Engineering</span>
         <span>Class of 2020</span> <span>Treasurer</span>
