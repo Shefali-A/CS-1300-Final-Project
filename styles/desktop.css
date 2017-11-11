@@ -1,5 +1,6 @@
+/* CSS for all pages */
 html{
-  height: 100%;
+  min-height: 100%;
   background: linear-gradient(to bottom, gray, white);
 }
 
@@ -65,4 +66,31 @@ h2{
   text-align: center;
   color: #383838;
   font-size: 43px;
+}
+
+/* CSS for team.php */
+.teamMember{
+  display: inline-block;
+}
+
+.memberRow{
+  text-align: center;
+}
+
+#team_photo{
+  text-align: center;
+}
+
+#group_photo_caption{
+  font-size: 30px;
+}
+
+.team_caption_name{
+  font-size: 30px;
+}
+
+figcaption span{
+  display: block;
+  font-size: 20px;
+  color: #383838;
 }
