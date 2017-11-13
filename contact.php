@@ -10,20 +10,20 @@
 </head>
 <body>
   <header>
-  <div id="header">
+    <div id="header">
 
-    <div id="logo">
-      <img alt = "logo" src = "images/logo.png"/>
+      <div id="logo">
+        <img alt = "logo" src = "images/logo.png"/>
+      </div>
+
+      <div id="teamName">
+        <h1>E. Motion</h1>
+      </div>
     </div>
 
-    <div id="teamName">
-      <h1>E. Motion</h1>
-    </div>
-  </div>
-
-  <?php
+    <?php
     include "includes/navigation.php";
-  ?>
+    ?>
   </header>
   <article>
     <h2>Contact Us</h2>
@@ -33,36 +33,36 @@
         <label for="name">Name:</label>
         <input type="text" name="name" placeholder="FirstName LastName" id="name" required/>
         <span class="error hidden" id="nameError">
-            Please provide your name
-          </span>
+          Please provide your name
+        </span>
       </div>
       <div>
         <label for="email">Email:</label>
         <input type="email" name="email" placeholder="name@domain.com" id="email" required/>
         <span class="error hidden" id="emailError">
-            Please provide a valid email address
-          </span>
+          Please provide a valid email address
+        </span>
       </div>
       <div>
         <label for="phoneNum">Phone Number:</label>
         <input type="tel" name="number" placeholder="1234567890" id="number" required/>
         <span class="error hidden" id="phoneError">
-            Please provide a valid 10-digit phone number
-          </span>
+          Please provide a valid 10-digit phone number
+        </span>
       </div>
       <div>
         <label for="subject">Subject:</label>
         <input type="text" name="subject" placeholder="The Subject" id="subject" required/>
         <span class="error hidden" id="subjectError">
-            Please provide the subject of your enquiry
-          </span>
+          Please provide the subject of your enquiry
+        </span>
       </div>
       <div>
         <label for="textBox">Message:</label>
         <textarea rows="8" cols="40" name="message" id="message" placeholder="Your Message" required></textarea>
         <span class="error hidden" id="messageError">
-            Please provide a description of your enquiry
-          </span>
+          Please provide a description of your enquiry
+        </span>
       </div>
       <div class="button">
         <button type="submit" name="submit" id="submit-button">Submit</button>
@@ -76,7 +76,7 @@
         <div id="contactImage">
           <img src="images/team_picture_2.jpg" alt="E.Motion group picture"/>
         </div>
-    </div>
-  </article>
-</body>
-</html>
+      </div>
+    </article>
+  </body>
+  </html>

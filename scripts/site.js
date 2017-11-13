@@ -24,7 +24,7 @@ $(document).ready(function() {
       formValid = false;
     }
     var subjectIsValid = $("#subject").prop("validity").valid;
-    if(phoneIsValid) {
+    if(subjectIsValid) {
       $("#subjectError").hide();
     } else {
       $("#subjectError").show();
