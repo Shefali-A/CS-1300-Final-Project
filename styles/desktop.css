@@ -245,13 +245,13 @@ textarea {
 }
 
 .button {
-  padding-left: 80px;
+  width: 10px;
+  padding-left: 277px;
   padding-top: 37px;
 }
 
 #submit_button {
   font-size: 15px;
-  padding-top: 7px;
 }
 
 .error {
