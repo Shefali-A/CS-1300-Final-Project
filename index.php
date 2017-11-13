@@ -25,7 +25,7 @@
   ?>
   </header>
   <div id="homeImage">
-    <img src="images/Emotion_group_2.jpg" alt="E.Motion group picture"/>
+    <img src="images/team_picture.jpg" alt="E.Motion group picture"/>
   </div>
   <h2>About Us</h2>
   <p>E.Motion is the only exclusively K-Pop dance cover group on campus. We teach anyone who is interested, whether they
@@ -35,9 +35,5 @@
   <p>We have had the privilege to perform at many Cornell events, KCON NY for the
     past two years, and have won a global dance cover contest from 1theK! We've covered groups such as SNSD, BTS, Twice,
     Big Bang, SISTAR, and many more!</p>
-  <h2>Upcoming Events</h2>
-  <p class="upcomingHome">CVA's Pho Night ~ November 18th 7:15PM</p>
-  <p class="upcomingHome">Korean Language Program Night ~ December 1st 8:00PM ~ GSH 132</p>
-  <p class="upcomingHome">Fall Step ~ December 1st ~ Bailey Hall</p>
 </body>
 </html>

@@ -96,64 +96,10 @@ figcaption span{
   font-style: italic;
 }
 
-/*CSS for contact page*/
-form {
-  width: 50%;
-  float: right;
-  text-align: center;
-}
-
-div {
-  width: 100%;
-}
-
-#contacts {
-  width: 50%;
-  float: left;
-  text-align: center;
-}
-
-#form_header {
-  text-align: center;
-  color: #383838;
-}
-
-#con_info_header {
-  color: #383838;
-}
-
-#name, #email {
-  width: 150px;
-}
-
-#phoneNum {
-  width: 91px;
-}
-
-#subject {
-  width: 140px;
-}
-
-#submit {
-  margin-left: 315px;
-  color: #383838;
-  border: none;
-  background-color: gray;
-  cursor: pointer;
-  padding: 5px;
-  border-radius: 3px;
-}
-
-#submit:hover {
-  color: white;
-}
-
 /* CSS for index.php */
-#homeImage {
-  text-align: center;
+#homeImage img{
   margin-top: 5px;
   width: 100%;
-  height: auto;
 }
 
 p {
@@ -242,4 +188,84 @@ p{
 
 .event{
   font-style: italic;
+}
+
+/* CSS for contact us */
+
+h3 {
+  font-size: 28px;
+  color: #383838;
+}
+
+#contactImage img {
+  margin-top: 20px;
+  width: 600px;
+}
+
+form {
+  text-align: center;
+  width: 50%;
+  float: right;
+}
+
+#form_header {
+  text-align: center;
+}
+
+div {
+  width: 100%;
+}
+
+#contacts {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 18px;
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+}
+
+input, textarea {
+  box-sizing: border-box;
+  font-style: italic;
+  font-size: 15px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+textarea {
+  margin-top: 10px;
+  vertical-align: top;
+  height: 100px;
+}
+
+.button {
+  padding-left: 80px;
+  padding-top: 37px;
+}
+
+#submit_button {
+  font-size: 15px;
+  padding-top: 7px;
+}
+
+.error {
+  float: left;
+  color: white;
+  display: block;
+  width: 300px;
+  margin-top: 5px;
+  margin-left: 278px;
+  background-color: #666666;
+  border: 1px black solid;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
 }
