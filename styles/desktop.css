@@ -172,33 +172,74 @@ p {
 }
 
 /*Slideshow stuff is here*/
+.slide {
+  display: block;
+  margin: 0px auto;
+  width: 800px;
+}
+
+.image_container{
+  text-align: center;
+  background-color: gray;
+  padding: 15px;
+}
+
 .slide_button {
   cursor: pointer;
   text-align: center;
   font-size: 25px;
   border-width: 6px;
-  color: navy;
+  border-radius: 5px;
+}
+
+#button_container{
+  text-align: center;
+  padding: 10px;
 }
 
 #current_img {
   height: 20%;
-  width: 50%
+  width: 50%;
 }
 
-.slide {
-  margin-left: 20%;
-  margin-right: 20%;
+#right{
+  margin-left: 35%;
+  width: 15%;
+}
+
+#left{
+  width: 15%;
+}
+
+.vidcontainer{
+  text-align: center;
+}
+
+.vid{
   width: 40%;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-top: 0px;
 }
 
-.vidcontainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+video{
+  display: inline-block;
+  width: 500px;
+  height: 315px;
 }
 
-.vid {
-  flex-basis: 25%;
-  flex-grow: 1;
+p span{
+  display: block;
+  font-size: 25px;
+  color: #383838;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+p{
+  margin-bottom: 0px;
+}
+
+.event{
+  font-style: italic;
 }
