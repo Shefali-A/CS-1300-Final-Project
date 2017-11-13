@@ -147,3 +147,26 @@ div {
 #submit:hover {
   color: white;
 }
+
+/* CSS for index.php */
+#homeImage {
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.upcomingHome {
+  font-style: italic;
+}
+
+/* CSS for aboutus.php */
+#aboutImage {
+  text-align: center;
+  margin-top: 5px;
+}
