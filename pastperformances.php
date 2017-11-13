@@ -45,6 +45,7 @@
 1) Kard-Oh NA NA ASIA NIGHT, 2) EXO- The Eve from MidAutumn Festival; 3) roduce 101- Never (you can use our cover or the A3WR performance);
 4) Red Velvet- Rookie from Korea Night;  5) BTS- Not Today from showcase( you can use the normal or 1.5 speed version);
 6) Seventeen- Mansae from Asia Night; 7) Gugudan- A Girl Like Me (cover version) -->
+
   <div class="vidcontainer">
     <div class="vid">
       <p> <span> Kard: Oh Na Na </span> <span class="event"> Cornell Asia Night </span> </p>
@@ -53,13 +54,14 @@
       </video>
     </div>
 
+<!--
     <div class="vid">
       <p> <span> Exo: The Eve </span> <span class="event"> Cornell CSA MidAutumn Festival </span> </p>
       <video controls>
         <source src="videos/Mid_Autumn_Festival.webm" type="video/webm">
       </video>
     </div>
-
+-->
     <div class="vid">
       <p> <span> Produce 101: Never </span> <span class="event"> Cover </span></p>
       <video controls>
@@ -67,6 +69,7 @@
       </video>
     </div>
 
+<!--
     <div class="vid">
       <p> <span> Red Velvet: Rookie </span> <span class="event"> Cornell Korea Night 2017 </span> </p>
       <video controls>
@@ -94,6 +97,7 @@
         <source src="videos/girlLikeThis_Dance_Cover_Contest.webm" type="video/webm">
       </video>
     </div>
+  -->
   </div>
 
 </body>
