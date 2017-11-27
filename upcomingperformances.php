@@ -25,9 +25,16 @@
   </header>
 
   <h2>Upcoming Performances</h2>
-  <p class="upcomingHome">CVA's Pho Night ~ November 18th 7:15PM</p>
-  <p class="upcomingHome">Korean Language Program Night ~ December 1st 8:00PM ~ GSH 132</p>
-  <p class="upcomingHome">Fall Step ~ December 1st ~ Bailey Hall</p>
+  <p class="upcomingHome"><a href="https://www.facebook.com/events/1508132005940902/">CVA's Pho Night</a> ~
+    November 18th 7:15PM ~ Memorial Room WSH</p>
+  <p class="upcomingHome"><a href="https://www.facebook.com/events/556112108115427/">Korean Language Program Night</a> ~
+    December 1st 8:00PM ~ GSH 132</p>
+  <p class="upcomingHome"><a href="https://www.facebook.com/events/1466227393493082/">Fall Step</a> ~ December 1st ~
+    Bailey Hall</p>
+
+  <div id="performanceImage">
+    <img src="images/team_picture_3.jpeg" alt="E.Motion group dance picture"/>
+  </div>
 
 </body>
 </html>

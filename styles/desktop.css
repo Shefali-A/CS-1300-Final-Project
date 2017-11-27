@@ -1,271 +1,283 @@
-/* CSS for all pages */
-html{
-  min-height: 100%;
-  background: linear-gradient(to bottom, gray, white);
-}
+@media only screen and (min-width: 760px) {
+  /* CSS for all pages */
+  html{
+    min-height: 100%;
+    background: linear-gradient(to bottom, gray, white);
+  }
 
-#logo{
-  width: 30%;
-  display: inline;
-  margin-bottom: 0px;
-}
+  #logo{
+    width: 30%;
+    display: inline;
+    margin-bottom: 0px;
+  }
 
-#logo img{
-  width: 10%;
-  margin-top: 2%;
-  margin-left: 3%;
-}
+  #logo img{
+    width: 10%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
 
-#teamName{
-  width: 30%;
-  display: inline-block;
-  margin-left: 0%;
-  padding-bottom: 0px;
-  padding-left: 23%;
-  padding-right: 6%;
-}
+  #teamName{
+    width: 30%;
+    display: inline-block;
+    margin-left: 0%;
+    padding-bottom: 0px;
+    padding-left: 23%;
+    padding-right: 6%;
+  }
 
-#header{
-  margin-top: 1%;
-  margin-bottom: 0%;
-}
+  #header{
+    margin-top: 1%;
+    margin-bottom: 0%;
+  }
 
-h1{
-  font-size: 85px;
-  text-align: center;
-  color: #F5F5F5;
-  margin: 20px 0px;
-}
+  h1{
+    font-size: 85px;
+    text-align: center;
+    color: #F5F5F5;
+    margin: 20px 0px;
+  }
 
-#links{
-  border-top: 3px solid gray;
-  border-bottom: 3px solid gray;
-}
+  #links{
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+  }
 
-#links ul{
-  list-style-type: none;
-  text-align: center;
-}
+  #links ul{
+    list-style-type: none;
+    text-align: center;
+  }
 
-#links li{
-  display: inline;
-}
+  #links li{
+    display: inline;
+  }
 
-#links a{
-  text-decoration: none;
-  padding: 40px;
-  font-size: 25px;
-  color: #484848;
-}
+  #links a{
+    text-decoration: none;
+    padding: 40px;
+    font-size: 25px;
+    color: #484848;
+  }
 
-#links a:hover{
-  color: #F5F5F5;
-}
+  #links a:hover{
+    color: #F5F5F5;
+  }
 
-h2{
-  text-align: center;
-  color: #383838;
-  font-size: 43px;
-}
+  h2{
+    text-align: center;
+    color: #383838;
+    font-size: 43px;
+  }
 
-/* CSS for team.php */
-.teamMember{
-  display: inline-block;
-}
+  /* CSS for team.php */
+  .teamMember{
+    display: inline-block;
+  }
 
-.memberRow{
-  text-align: center;
-}
+  .memberRow{
+    text-align: center;
+  }
 
-#team_photo{
-  text-align: center;
-}
+  #team_photo{
+    text-align: center;
+  }
 
-#group_photo_caption{
-  font-size: 30px;
-}
+  #group_photo_caption{
+    font-size: 30px;
+  }
 
-.team_caption_name{
-  font-size: 30px;
-}
+  .team_caption_name{
+    font-size: 30px;
+  }
 
-figcaption span{
-  display: block;
-  font-size: 20px;
-  color: #383838;
-  font-style: italic;
-}
+  figcaption span{
+    display: block;
+    font-size: 20px;
+    color: #383838;
+    font-style: italic;
+  }
 
-/* CSS for index.php */
-#homeImage img{
-  margin-top: 5px;
-  width: 100%;
-}
+  /* CSS for index.php */
+  #homeImage img{
+    margin-top: 5px;
+    width: 100%;
+  }
 
-p {
-  text-align: center;
-  font-size: 20px;
-}
+  p {
+    text-align: center;
+    font-size: 20px;
+  }
 
-.upcomingHome {
-  font-style: italic;
-}
+  .upcomingHome {
+    font-style: italic;
+  }
 
-/* CSS for aboutus.php */
-#aboutImage {
-  text-align: center;
-  margin-top: 5px;
-}
+  /* CSS for aboutus.php */
+  #aboutImage {
+    text-align: center;
+    margin-top: 5px;
+  }
 
-/*Slideshow stuff is here*/
-.slide {
-  display: block;
-  margin: 0px auto;
-  width: 800px;
-}
+  /* CSS for pastperformances.php */
+  .slide {
+    display: block;
+    margin: 0px auto;
+    width: 800px;
+  }
 
-.image_container{
-  text-align: center;
-  background-color: gray;
-  padding: 15px;
-}
+  .image_container{
+    text-align: center;
+    background-color: gray;
+    padding: 15px;
+  }
 
-.slide_button {
-  cursor: pointer;
-  text-align: center;
-  font-size: 25px;
-  border-width: 6px;
-  border-radius: 5px;
-}
+  .slide_button {
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    border-width: 6px;
+    border-radius: 5px;
+  }
 
-#button_container{
-  text-align: center;
-  padding: 10px;
-}
+  #button_container{
+    text-align: center;
+    padding: 10px;
+  }
 
-#current_img {
-  height: 20%;
-  width: 50%;
-}
+  #current_img {
+    height: 20%;
+    width: 50%;
+  }
 
-#right{
-  margin-left: 35%;
-  width: 15%;
-}
+  #right{
+    margin-left: 35%;
+    width: 15%;
+  }
 
-#left{
-  width: 15%;
-}
+  #left{
+    width: 15%;
+  }
 
-.vidcontainer{
-  text-align: center;
-}
+  .vidcontainer{
+    text-align: center;
+  }
 
-.vid{
-  width: 40%;
-  display: inline-block;
-  margin-bottom: 30px;
-  padding-top: 0px;
-}
+  .vid{
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-top: 0px;
+  }
 
-video{
-  display: inline-block;
-  width: 500px;
-  height: 315px;
-}
+  video{
+    display: inline-block;
+    width: 500px;
+    height: 315px;
+  }
 
-p span{
-  display: block;
-  font-size: 25px;
-  color: #383838;
-  font-weight: bold;
-  margin-bottom: 0px;
-}
+  p span{
+    display: block;
+    font-size: 25px;
+    color: #383838;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
 
-p{
-  margin-bottom: 0px;
-}
+  p{
+    margin-bottom: 0px;
+  }
 
-.event{
-  font-style: italic;
-}
+  .event{
+    font-style: italic;
+  }
 
-/* CSS for contact us */
+  /* CSS for upcomingperformance.php */
+  #performanceImage {
+    text-align: center;
+  }
 
-h3 {
-  font-size: 28px;
-  color: #383838;
-}
+  #performanceImage img{
+    margin-top: 5px;
+    width: 70%;
+  }
 
-#contactImage img {
-  margin-top: 20px;
-  width: 600px;
-}
+  /* CSS for contact us */
 
-form {
-  text-align: center;
-  width: 50%;
-  float: right;
-}
+  h3 {
+    font-size: 28px;
+    color: #383838;
+  }
 
-#form_header {
-  text-align: center;
-}
+  #contactImage img {
+    margin-top: 20px;
+    width: 100%;
+  }
 
-div {
-  width: 100%;
-}
+  form {
+    text-align: center;
+    width: 50%;
+    float: right;
+  }
 
-#contacts {
-  width: 50%;
-  float: left;
-  text-align: center;
-}
+  #form_header {
+    text-align: center;
+  }
 
-label {
-  margin-top: 10px;
-  font-size: 18px;
-  display: inline-block;
-  width: 140px;
-  text-align: left;
-}
+  div {
+    width: 100%;
+  }
 
-input, textarea {
-  box-sizing: border-box;
-  font-style: italic;
-  font-size: 15px;
-  width: 300px;
-  border: 1px solid black;
-}
+  #contacts {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
 
-textarea {
-  margin-top: 10px;
-  vertical-align: top;
-  height: 100px;
-}
+  label {
+    margin-top: 10px;
+    font-size: 18px;
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+  }
 
-.button {
-  width: 10px;
-  padding-left: 277px;
-  padding-top: 37px;
-}
+  input, textarea {
+    box-sizing: border-box;
+    font-style: italic;
+    font-size: 15px;
+    width: 300px;
+    border: 1px solid black;
+  }
 
-#submit_button {
-  font-size: 15px;
-}
+  textarea {
+    margin-top: 10px;
+    vertical-align: top;
+    height: 100px;
+  }
 
-.error {
-  float: left;
-  color: white;
-  display: block;
-  width: 300px;
-  margin-top: 5px;
-  margin-left: 278px;
-  background-color: #666666;
-  border: 1px black solid;
-  padding: 5px;
-}
+  .button {
+    width: 10px;
+    padding-left: 277px;
+    padding-top: 37px;
+  }
 
-.hidden {
-  display: none;
+  #submit_button {
+    font-size: 15px;
+  }
+
+  .error {
+    color: white;
+    display: block;
+    width: 300px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 39%;
+    background-color: #666666;
+    border: 1px black solid;
+    padding: 0px 5px;
+  }
+
+  .hidden {
+    display: none;
+  }
 }

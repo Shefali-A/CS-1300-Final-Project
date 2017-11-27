@@ -32,6 +32,7 @@
       <figcaption class="team_caption_name">
         Tiffany Chan <span>Animal Science</span>
         <span>Class of 2019</span> <span>President</span>
+        <span>tc347@cornell.edu</span>
       </figcaption>
     </figure>
 
@@ -40,6 +41,7 @@
       <figcaption class="team_caption_name">
         Annie Xu <span>Human Development</span>
         <span>Class of 2021</span> <span>Freshman Representative</span>
+        <span>sx67@cornell.edu</span>
       </figcaption>
     </figure>
 
@@ -48,6 +50,7 @@
       <figcaption class="team_caption_name">
         Betty Wang <span>Undeclared</span>
         <span>Class of 2020</span> <span>Social Chair</span>
+        <span>bw434@cornell.edu</span>
       </figcaption>
     </figure>
   </div>
@@ -58,6 +61,7 @@
       <figcaption class="team_caption_name">
         Christina Lu <span>Economics and Mathematics</span>
         <span>Class of 2018</span> <span>PR Chair</span>
+        <span>ccl224@cornell.edu</span>
       </figcaption>
     </figure>
 
@@ -66,6 +70,7 @@
       <figcaption class="team_caption_name">
         Han Chao Li <span>Undeclared</span>
         <span>Class of 2020</span> <span>Media Chair</span>
+        <span>hl769@cornell.edu</span>
       </figcaption>
     </figure>
 
@@ -74,6 +79,7 @@
       <figcaption class="team_caption_name">
         Jaewon Baek <span>Philosophy</span>
         <span>Class of 2020</span> <span>Secretary</span>
+        <span>jb2322@cornell.edu</span>
       </figcaption>
     </figure>
   </div>
@@ -84,6 +90,7 @@
       <figcaption class="team_caption_name">
         Jennifer Lin <span>Information Science</span>
         <span>Class of 2020</span> <span>Media Chair</span>
+        <span>jl3263@cornell.edu</span>
       </figcaption>
     </figure>
 
@@ -92,6 +99,7 @@
       <figcaption class="team_caption_name">
         Michelle Wang <span>Chemical Engineering</span>
         <span>Class of 2020</span> <span>Treasurer</span>
+        <span>mqw4@cornell.edu</span>
       </figcaption>
     </figure>
   </div>

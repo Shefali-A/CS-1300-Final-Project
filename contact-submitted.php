@@ -1,9 +1,13 @@
 <?php
-$name = $_POST["name"];
-$number = $_POST["number"];
-$email = $_POST["email"];
-$subject = $_POST["subject"];
-$message = $_POST["message"];
+session_start();
+
+$name = $_SESSION['name'];
+$email = $_SESSION['email'];
+unset($_SESSION['email']);
+$number = $_SESSION['number'];
+unset($_SESSION['number']);
+$enquiry = $_SESSION['subject'];
+$message = $_SESSION['message'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -40,6 +44,7 @@ $message = $_POST["message"];
       <p>You have successfully submitted the form. You will either receive a call at <?php echo($number); ?> or an email
         from us at <?php echo($email) ?> concerning the subject of your enquiry '<?php echo($subject); ?>'.</p>
       <p>The details of your enquiry are: '<?php echo($message); ?>'.</p>
+      <p>We will respond within 24 hours of the form being submitted.</p>
     </form>
     <div id="contacts">
       <h3 id="con_info_header">Contact Information</h3>

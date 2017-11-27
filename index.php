@@ -35,5 +35,12 @@
   <p>We have had the privilege to perform at many Cornell events, KCON NY for the
     past two years, and have won a global dance cover contest from 1theK! We've covered groups such as SNSD, BTS, Twice,
     Big Bang, SISTAR, and many more!</p>
+  <h2>Social Events</h2>
+  <p>8/23- KARD Hola Hola taught by Ann</p>
+  <p>9/2- Sunmi Gashina taught by Violet</p>
+  <p>9/15- 24K Superfly taught by Selby and Christina</p>
+  <p>9/22- Produce 101 Nayana taught by Sophie</p>
+  <p>10/6- EXO Power taught by Ann</p>
+  <p>10/13- BTS Go Go taught by Cindy</p>
 </body>
 </html>
