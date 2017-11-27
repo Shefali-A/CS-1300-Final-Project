@@ -40,10 +40,12 @@ $message = $_SESSION['message'];
     <h2>Contact Us</h2>
     <form id="contactForm" action="contact-submitted.php" method="post" novalidate>
       <h3 id="form_header">Contact Form</h3>
-      <p>Thank you, <?php echo($name); ?>.</p>
-      <p>You have successfully submitted the form. You will either receive a call at <?php echo($number); ?> or an email
-        from us at <?php echo($email) ?> concerning the subject of your enquiry '<?php echo($subject); ?>'.</p>
-      <p>The details of your enquiry are: '<?php echo($message); ?>'.</p>
+      <p>Thank you, <?php echo(htmlspecialchars($name)); ?>.</p>
+      <p>You have successfully submitted the form. You will either receive a call
+        at <?php echo(htmlspecialchars($number)); ?> or an email from us
+        at <?php echo(htmlspecialchars($email)) ?> concerning the subject of
+        your enquiry '<?php echo(htmlspecialchars($enquiry)); ?>'.</p>
+      <p>The details of your enquiry are: '<?php echo(htmlspecialchars($message)); ?>'.</p>
       <p>We will respond within 24 hours of the form being submitted.</p>
     </form>
     <div id="contacts">

@@ -95,7 +95,8 @@ if (isset($submit)) {
       <h3 id="form_header">Contact Form</h3>
       <div>
         <label for="name">Name:</label>
-        <input type="text" name="name" placeholder="FirstName LastName" id="name" value="<?php echo($name);?>" required/>
+        <input type="text" name="name" placeholder="FirstName LastName" id="name"
+          value="<?php echo(htmlspecialchars($name));?>" required/>
         <br/>
         <span class="error <?php if ($nameValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="nameError">
           Please provide your name
@@ -103,7 +104,8 @@ if (isset($submit)) {
       </div>
       <div>
         <label for="email">Email:</label>
-        <input type="email" name="email" placeholder="name@domain.com" id="email" value="<?php echo($email);?>" required/>
+        <input type="email" name="email" placeholder="name@domain.com" id="email"
+          value="<?php echo(htmlspecialchars($email));?>" required/>
         <br/>
         <span class="error <?php if ($emailValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="emailError">
           Please provide a valid email address
@@ -111,7 +113,8 @@ if (isset($submit)) {
       </div>
       <div>
         <label for="number">Phone Number:</label>
-        <input type="tel" name="number" placeholder="1234567890" id="number" value="<?php echo($number);?>" required
+        <input type="tel" name="number" placeholder="1234567890" id="number"
+          value="<?php echo(htmlspecialchars($number));?>" required
         minlength="10" maxlength="10"/>
         <br/>
         <span class="error <?php if ($numberValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="phoneError">
@@ -120,7 +123,8 @@ if (isset($submit)) {
       </div>
       <div>
         <label for="subject">Subject:</label>
-        <input type="text" name="subject" placeholder="The Subject" id="subject" value="<?php echo($subject);?>" required/>
+        <input type="text" name="subject" placeholder="The Subject" id="subject"
+          value="<?php echo(htmlspecialchars($subject));?>" required/>
         <br/>
         <span class="error <?php if ($subjectValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="subjectError">
           Please provide the subject of your enquiry
@@ -128,7 +132,8 @@ if (isset($submit)) {
       </div>
       <div>
         <label for="message">Message:</label>
-        <textarea name="message" id="message" placeholder="Your Message" required><?php echo($message);?></textarea>
+        <textarea name="message" id="message" placeholder="Your Message"
+          required><?php echo(htmlspecialchars($message));?></textarea>
         <br/>
         <span class="error <?php if ($messageValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="messageError">
           Please provide a description of your enquiry
