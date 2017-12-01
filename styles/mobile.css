@@ -229,8 +229,8 @@
   label {
     margin-top: 10px;
     font-size: 18px;
-    display: inline-block;
-    width: 140px;
+    display: block;
+    width: 100%;
     text-align: center;
   }
 
@@ -238,9 +238,11 @@
     box-sizing: border-box;
     font-style: italic;
     font-size: 15px;
-    width: 300px;
+    height: 25px;
+    width: 100%;
     border: 1px solid black;
-
+    display: block;
+    text-align: center;
   }
 
   textarea {
@@ -264,7 +266,12 @@
     text-align: center;
     background-color: #666666;
     border: 1px black solid;
+    width: 100%;
     padding: 0px;
+  }
+
+  br{
+    display: none;
   }
 
   .hidden {

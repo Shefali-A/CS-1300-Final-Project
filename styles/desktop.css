@@ -237,7 +237,7 @@
     margin-top: 10px;
     font-size: 18px;
     display: inline-block;
-    width: 140px;
+    width: 35%;
     text-align: left;
   }
 
@@ -245,8 +245,10 @@
     box-sizing: border-box;
     font-style: italic;
     font-size: 15px;
-    width: 300px;
+    /*width: 250px;*/
+    width: 50%;
     border: 1px solid black;
+    margin-left: 0%;
   }
 
   textarea {
@@ -259,21 +261,21 @@
     width: 10px;
     padding-left: 277px;
     padding-top: 37px;
+    margin-left: 10%;
   }
 
   #submit_button {
     font-size: 15px;
   }
 
-  .error {
+  .error{
     color: white;
-    display: block;
-    width: 300px;
+    margin-left: 42.6%;
+    width: 49.5%;
     float: left;
-    margin-left: 39%;
     background-color: #666666;
     border: 1px black solid;
-    padding: 0px 0px;
+    clear: both;
   }
 
   .hidden {

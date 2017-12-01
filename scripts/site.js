@@ -2,8 +2,11 @@ $(document).ready(function() {
 
   $("#contactForm").on("submit", function() {
     var formValid = true;
-    var nameIsValid = $("#name").prop("validity").valid;
-    if(nameIsValid) {
+
+    var nameIsValid = $("#nameRegExp").prop("validity").valid;
+    var nameRegEx = /^[a-zA-Z ]+$/;
+
+    if(nameIsValid && (nameRegEx.test(document.getElementById('nameRegExp').value))) {
       $("#nameError").hide();
     } else {
       $("#nameError").show();

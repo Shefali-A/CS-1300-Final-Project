@@ -8,7 +8,7 @@ $HIDDEN_ERROR_CLASS = "hidden";
 
 if (isset($submit)) {
   $name = $_REQUEST["name"];
-  if ( !empty($name) ) {
+  if (!empty($name) && preg_match("/^[a-zA-Z ]+$/i", $name)) {
     $nameValid = true;
   } else {
     $nameValid = false;
@@ -95,7 +95,7 @@ if (isset($submit)) {
       <h3 id="form_header">Contact Form</h3>
       <div>
         <label for="name">Name:</label>
-        <input type="text" name="name" placeholder="FirstName LastName" id="name"
+        <input type="text" name="name" placeholder="FirstName LastName" id="nameRegExp"
           value="<?php echo(htmlspecialchars($name));?>" required/>
         <br/>
         <span class="error <?php if ($nameValid) { echo($HIDDEN_ERROR_CLASS);} ?>" id="nameError">
