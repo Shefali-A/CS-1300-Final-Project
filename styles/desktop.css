@@ -281,4 +281,16 @@
   .hidden {
     display: none;
   }
+
+  .italic{
+    font-style: italic;
+    font-size: 20px;
+    display: inline;
+  }
+
+  .bold{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+  }
 }

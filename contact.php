@@ -89,6 +89,8 @@ if (isset($submit)) {
     include "includes/navigation.php";
     ?>
   </header>
+  <!-- All the photos and videos on this page were provided by Tiffany Chan,
+       president of the E. Motion team-->
   <article>
     <h2>Contact Us</h2>
     <form id="contactForm" action="contact.php" method="post" novalidate>
@@ -142,14 +144,18 @@ if (isset($submit)) {
       <div class="button">
         <button type="submit" name="submit" id="submit-button">Submit</button>
       </div>
+      <p>Please fill out all fields of the form before submitting!</p>
       <p>We will respond within 24 hours of the form being submitted.</p>
     </form>
     <div id="contacts">
       <h3 id="con_info_header">Contact Information</h3>
-      <p>Follow us on <a href="https://www.facebook.com/cornellemotion/">Facebook</a>, check out our previous performances on
-        <a href="https://www.youtube.com/user/cornellemotion/">YouTube</a> at E.Motion Cornell, and contact us at
-        cornellemotion@gmail.com to be added to our listserv! <strong>Remember we don't have tryouts so anyone is
-        welcome to join us!</strong></p>
+      <p>Follow us on <a href="https://www.facebook.com/cornellemotion/">Facebook</a>,
+        check out our previous performances on <a href="https://www.youtube.com/user/cornellemotion/">YouTube</a>
+        at E.Motion Cornell, and contact us at <span class="italic">cornellemotion@gmail.com</span> to be added to our listserv!
+        Direct contact information can be found on the Team Members page.
+        <span class="bold">Remember we don't have tryouts so anyone is welcome
+        to join us!</span>
+      </p>
         <div id="contactImage">
           <img src="images/team_picture_2.jpg" alt="E.Motion group picture"/>
         </div>

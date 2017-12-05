@@ -36,6 +36,9 @@ $message = $_SESSION['message'];
     include "includes/navigation.php";
   ?>
   </header>
+
+  <!-- All the photos and videos on this page were provided by Tiffany Chan,
+       president of the E. Motion team-->
   <article>
     <h2>Contact Us</h2>
     <form id="contactForm" action="contact-submitted.php" method="post" novalidate>

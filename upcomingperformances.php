@@ -32,6 +32,8 @@
   <p class="upcomingHome"><a href="https://www.facebook.com/events/1466227393493082/">Fall Step</a> ~ December 1st ~
     Bailey Hall</p>
 
+    <!-- All the photos and videos on this page were provided by Tiffany Chan,
+         president of the E. Motion team-->
   <div id="performanceImage">
     <img src="images/team_picture_3.jpeg" alt="E.Motion group dance picture"/>
   </div>

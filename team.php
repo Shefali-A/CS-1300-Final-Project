@@ -24,7 +24,8 @@
   ?>
   </header>
 
-  <!-- All photos on this page were provided by E. Motion -->
+  <!-- All the photos and videos on this page were provided by Tiffany Chan,
+       president of the E. Motion team-->
   <h2> Executive Board </h2>
   <div class="memberRow">
     <figure class="teamMember">

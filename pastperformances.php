@@ -29,7 +29,8 @@
   <br>
 
   <h2> Past Performances </h2>
-
+  <!-- All the photos and videos on this page were provided by Tiffany Chan,
+       president of the E. Motion team-->
   <div class="vidcontainer">
     <div class="vid">
       <p> <span> Kard: Oh Na Na </span> <span class="event"> Cornell Asia Night </span> </p>
@@ -38,51 +39,16 @@
       </video>
     </div>
 
-  <!--
-    <div class="vid">
-      <p> <span> Exo: The Eve </span> <span class="event"> Cornell CSA MidAutumn Festival </span> </p>
-      <video controls>
-        <source src="videos/Mid_Autumn_Festival.webm" type="video/webm">
-      </video>
-    </div>
-  -->
     <div class="vid">
       <p> <span> Produce 101: Never </span> <span class="event"> Cover </span></p>
       <video controls>
         <source src="videos/koreaNight_2017.webm" type="video/webm">
       </video>
     </div>
-
-  <!--
-    <div class="vid">
-      <p> <span> Red Velvet: Rookie </span> <span class="event"> Cornell Korea Night 2017 </span> </p>
-      <video controls>
-        <source src="videos/produce101_never.webm" type="video/webm">
-      </video>
-    </div>
-
-    <div class="vid">
-      <p> <span> BTS: Not Today </span> <span class="event"> E. Motion Showcase 2017 </span></p>
-      <video controls>
-        <source src="videos/Music_Bank.webm" type="video/webm">
-      </video>
-    </div>
-
-    <div class="vid">
-      <p> <span>Seventeen: Mansae </span> <span class="event"> E. Motion Showcase 2017 </span> </p>
-      <video controls>
-        <source src="videos/17Mansae.webm" type="video/webm">
-      </video>
-    </div>
-
-    <div class="vid">
-      <p> <span> Gugudan: A Girl Like Me </span> <span class="event"> 1theK Dance Cover Contest </span> </p>
-      <video controls>
-        <source src="videos/girlLikeThis_Dance_Cover_Contest.webm" type="video/webm">
-      </video>
-    </div>
-  -->
   </div>
+  <p> For more videos of our previous performances, check out our
+    <a href="https://www.youtube.com/user/cornellemotion/">YouTube</a> channel!
+  </p>
   <hr/>
 
   <div class="slide">

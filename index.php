@@ -24,6 +24,8 @@
     include "includes/navigation.php";
   ?>
   </header>
+  <!-- All the photos and videos on this page were provided by Tiffany Chan, 
+       president of the E. Motion team-->
   <div id="homeImage">
     <img src="images/team_picture.jpg" alt="E.Motion group picture"/>
   </div>
