@@ -1,5 +1,4 @@
-"use strict";
-window.onload = function() {
+$(document).ready(function() {
   //These are all the images
   var images = ["asianight.png", "kconNY.png", "showcoloredskirt.png", "showredskirt.png", "hopenight.png"];
 
@@ -33,4 +32,4 @@ window.onload = function() {
 		}
 	});
 
-};
+});
