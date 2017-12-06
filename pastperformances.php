@@ -61,10 +61,6 @@
       <button class="slide_button" id="right" >Next</button>
     </div>
   </div>
-  <!-- Past performances in this order:
-1) Kard-Oh NA NA ASIA NIGHT, 2) EXO- The Eve from MidAutumn Festival; 3) roduce 101- Never (you can use our cover or the A3WR performance);
-4) Red Velvet- Rookie from Korea Night;  5) BTS- Not Today from showcase( you can use the normal or 1.5 speed version);
-6) Seventeen- Mansae from Asia Night; 7) Gugudan- A Girl Like Me (cover version) -->
 
 </body>
 </html>
